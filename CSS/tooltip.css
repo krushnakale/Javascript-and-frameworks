@@ -1,0 +1,27 @@
+/*.tooltip {
+    position: relative;
+    display: inline-block;
+ 
+}*/
+
+.tooltiptext {
+    visibility: hidden;
+    width: 120px;
+  background-color: rgb(4, 186, 68);
+  color: #fff;
+  align-items: center;
+  border-radius: 6px;
+  padding: 5px 0;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    
+}
+.main-info{
+    background-color: rgb(232, 151, 209);
+    padding: 80px;
+  
+}
+.dashboard{
+    background-color: rgb(192, 204, 225);
+}
