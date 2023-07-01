@@ -2,9 +2,9 @@
     position: relative;
     display: inline-block;
  
-}*/
-
-.tooltiptext {
+}
+/*main program*/
+/*.tooltiptext {
     visibility: hidden;
     width: 120px;
   background-color: rgb(4, 186, 68);
@@ -18,10 +18,52 @@
     
 }
 .main-info{
-    background-color: rgb(190, 94, 159);
+    background-color: rgb(251, 234, 245);
     padding: 80px;
   
 }
 .dashboard{
-    background-color: rgb(159, 196, 199);
+    background-color: rgb(186, 230, 234);
+}
+.informationicon{
+    color: black;
+    background-color:rgb(218, 151, 151);
+    padding: 5px;
+    width: 50px;
+    height: 29;
+    font-size: 50px;
+    
+
+
+}*/
+
+
+.tooltiptext{
+    visibility: hidden;
+    
+    
+    }
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+    color:white;
+    background-color:green;
+    padding: 3px;
+  top: -5px;
+  right:105%;
+    
+
+}
+
+.readmore{
+    visibility: hidden;
+}
+
+.read:hover .readmore{
+    visibility: visible;
+    visibility: visible;
+    color:white;
+    background-color:green;
+    padding: 3px;
+  top: -5px;
+  right:105%;   
 }

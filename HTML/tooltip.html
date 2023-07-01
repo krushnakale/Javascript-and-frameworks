@@ -5,17 +5,37 @@
         tooltip content
     </title>
     <link rel="stylesheet" href="../CSS/tooltip.css">
-    <link href="../Javascript/sample bookmarklet.js">
+  
 </head>
 <body class="dashboard">
     <div class="main-info">
-    <h1>THis is the accessibility tooltip</h1>
+    <h1>This is the accessibility tooltip</h1>
     <div class="tooltip">
-     WCAG hover me on the more information
-        <span class="tooltiptext">Web content accessibility guidelies</span>
+     <abbr title="web content accessibility Guidelines">WCAG</abbr>
+        <span class="tooltiptext">Web Content Accessibility Guidelines (WCAG) 2 is developed through the W3C process in cooperation with individuals and organizations around the world, with a goal of providing a single shared standard for web content accessibility that meets the needs of individuals, organizations, and governments internationally.</span>
     </div>
 </div>
-    </body>
+<h2>this is the heading</h2>
+    <button onclick="findElementsWithMouseover()">connect</button>
+        <button>This is the current version of coder</button>
+      
+<div class="read">
+   Read More
+ <span class="readmore">Read more is showing the result of more information</span>
+</div>
+    <div tabindex="0" role="button" aria-label="More information" class="informationicon">
+        !
+    <span></span>
+    </div>
+    <button aria-hidden="true">tooltip</button>
+   <p id="p"></p>
+    <button onclick="myFunction()">push</button><br>
+    <button id="mybtn" onmouseover="">try it</button>
+    <p id="demo"></p>
+    
 
+    <script src="../Javascript/sample bookmarklet.js"></script>
+
+   
 </body>
 </html>
